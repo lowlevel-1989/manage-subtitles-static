@@ -5,6 +5,7 @@ $(document).ready(() => {
 	// actualizar a template html
 	template_html = "<li> <b>user</b>: {user}</li>            \
 									 <li> <b>imdb</b>: {imdb}</li>            \
+									 <li> <b>lang</b>: {lang}</li>            \
 									 <li> <b>hash</b>: {hash}</li>            \
 									 <li> <b>name</b>: {name}</li>            \
 									 <li> <b>consumers</b>: {consumers}</li>"
@@ -22,6 +23,7 @@ $(document).ready(() => {
 			user:      parent.data("metadataUser"),
 			consumers: parent.data("metadataConsumers"),
 			imdb:      parent.data("metadataImdb"),
+			lang:      parent.data("metadataLang"),
 			hash:      parent.data("metadataHash"),
 			name:      parent.data("metadataFilename")}))
 
