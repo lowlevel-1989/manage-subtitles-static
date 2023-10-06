@@ -1,0 +1,71 @@
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #5ec4d4;
+  border-color: #5ec4d4;
+}
+
+a {
+  color: #5ec4d4;
+}
+
+body {
+  height: 100vh;
+  background: #ededed;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+}
+.page-container {
+  background: #fff;
+  padding: 20px;
+  width: 860px;
+}
+.image-page {
+  position: relative;
+  display: block;
+  text-align: justify;
+}
+.content-form {
+  padding: 10px;
+  flex: 1 1 0%;
+  gap: 10px;
+  color: #979797;
+}
+
+.over-text-for-example {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input::placeholder {
+  color: #b9b9b9 !important;
+}
+
+.input-group input:focus,
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input, button {
+  border-radius: 0 !important;
+	margin-bottom: 4px;
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  body {
+    display: block;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .page-container {
+    width: 50%;
+  }
+  .image-page {
+    display: none;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .page-container {
+    width: 90%;
+  }
+}
