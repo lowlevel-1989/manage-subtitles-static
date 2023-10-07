@@ -1,0 +1,1 @@
+(function($){$("#register-form").submit((event)=>{const label=$('label[for="accept"]');label.removeClass("text-danger");if(!$("#accept").is(":checked")){label.addClass("text-danger");event.preventDefault();}});})(jQuery);;
