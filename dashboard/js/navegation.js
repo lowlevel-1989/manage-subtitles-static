@@ -14,12 +14,12 @@ $(document).ready(() => {
 	const SUBTITLE_METADATA = $("#metadata")
 
 
-	const NAV_ITEMS      = 6
+	const NAV_ITEMS      = 5
 	const NAV_ELEMENT = [
 		$("#nav-dashboard"),
 		$("#nav-dashboard"),
 		$("#nav-consumer"),
-		$("#nav-translate"),
+		// $("#nav-translate"),
 		$("#nav-manual"),
 		$("#nav-privacy"),
 		$("#nav-credits")
