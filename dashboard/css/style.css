@@ -32,10 +32,6 @@ a.ui-button:active,
     list-style-type: none;
 }
 
-.metadata {
-    cursor: pointer;
-}
-
 .tri {
     position: relative;
     padding: 10px 20px;
